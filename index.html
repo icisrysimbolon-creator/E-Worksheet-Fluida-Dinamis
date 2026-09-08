@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/E-Worksheet-Fluida-Dinamis/">
     <title>E-Worksheet Fluida Dinamis</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
@@ -20,11 +21,11 @@
             </div>
             <ul class="nav-menu" id="navMenu">
                 <li><a href="index.html" class="active"><i class="fas fa-home"></i> Beranda</a></li>
-                <li><a href="pages/materi.html"><i class="fas fa-book"></i> Materi</a></li>
-                <li><a href="pages/simulasi.html"><i class="fas fa-play-circle"></i> Simulasi</a></li>
-                <li><a href="pages/thinkaloud.html"><i class="fas fa-video"></i> Think-Aloud</a></li>
-                <li><a href="pages/refleksi.html"><i class="fas fa-pen-fancy"></i> Refleksi</a></li>
-                <li><a href="pages/kuis.html"><i class="fas fa-question-circle"></i> Kuis</a></li>
+                <li><a href="./pages/materi.html"><i class="fas fa-book"></i> Materi</a></li>
+                <li><a href="./pages/simulasi.html"><i class="fas fa-play-circle"></i> Simulasi</a></li>
+                <li><a href="./pages/thinkaloud.html"><i class="fas fa-video"></i> Think-Aloud</a></li>
+                <li><a href="./pages/refleksi.html"><i class="fas fa-pen-fancy"></i> Refleksi</a></li>
+                <li><a href="./pages/kuis.html"><i class="fas fa-question-circle"></i> Kuis</a></li>
             </ul>
             <div class="hamburger" id="hamburger">
                 <span></span>
@@ -43,7 +44,7 @@
                     <h1>Fluida Dinamis</h1>
                     <p class="subtitle">Eksplorasi konsep Debit, Persamaan Kontinuitas, dan Hukum Bernoulli melalui simulasi interaktif dan metode Think-Aloud.</p>
                     <div class="hero-buttons">
-                        <a href="pages/materi.html" class="btn btn-primary">
+                        <a href="./pages/materi.html" class="btn btn-primary">
                             <i class="fas fa-rocket"></i> Mulai Belajar
                         </a>
                         <a href="#features" class="btn btn-secondary">
@@ -66,7 +67,11 @@
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="assets/images/hero-fluida.svg" alt="Ilustrasi Fluida Dinamis" />
+                    <!-- Gambar dihapus sementara karena file tidak ada -->
+                    <div style="text-align:center; padding:40px; background:linear-gradient(135deg, #e8eaf6, #ffffff); border-radius:20px;">
+                        <i class="fas fa-water" style="font-size: 8rem; color: #1a237e;"></i>
+                        <p style="color: #555; margin-top: 15px; font-weight: 600;">Fluida Dinamis</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -124,19 +129,19 @@
                     <div class="materi-number">01</div>
                     <h3>Debit Aliran</h3>
                     <p>Memahami volume fluida yang mengalir per satuan waktu (Q = A.v)</p>
-                    <a href="pages/materi.html#debit" class="materi-link">Pelajari <i class="fas fa-arrow-right"></i></a>
+                    <a href="./pages/materi.html#debit" class="materi-link">Pelajari <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="materi-card">
                     <div class="materi-number">02</div>
                     <h3>Persamaan Kontinuitas</h3>
                     <p>Hubungan antara luas penampang dan kecepatan aliran (A₁v₁ = A₂v₂)</p>
-                    <a href="pages/materi.html#kontinuitas" class="materi-link">Pelajari <i class="fas fa-arrow-right"></i></a>
+                    <a href="./pages/materi.html#kontinuitas" class="materi-link">Pelajari <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="materi-card">
                     <div class="materi-number">03</div>
                     <h3>Hukum Bernoulli</h3>
                     <p>Hubungan tekanan, kecepatan, dan ketinggian dalam aliran fluida</p>
-                    <a href="pages/materi.html#bernoulli" class="materi-link">Pelajari <i class="fas fa-arrow-right"></i></a>
+                    <a href="./pages/materi.html#bernoulli" class="materi-link">Pelajari <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -155,11 +160,11 @@
                     <h4>Navigasi</h4>
                     <ul>
                         <li><a href="index.html">Beranda</a></li>
-                        <li><a href="pages/materi.html">Materi</a></li>
-                        <li><a href="pages/simulasi.html">Simulasi</a></li>
-                        <li><a href="pages/thinkaloud.html">Think-Aloud</a></li>
-                        <li><a href="pages/refleksi.html">Refleksi</a></li>
-                        <li><a href="pages/kuis.html">Kuis</a></li>
+                        <li><a href="./pages/materi.html">Materi</a></li>
+                        <li><a href="./pages/simulasi.html">Simulasi</a></li>
+                        <li><a href="./pages/thinkaloud.html">Think-Aloud</a></li>
+                        <li><a href="./pages/refleksi.html">Refleksi</a></li>
+                        <li><a href="./pages/kuis.html">Kuis</a></li>
                     </ul>
                 </div>
                 <div class="footer-info">
@@ -175,6 +180,6 @@
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
