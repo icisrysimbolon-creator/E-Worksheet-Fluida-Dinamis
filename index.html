@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Worksheet Fluida Dinamis</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">
+                    <i class="fas fa-flask"></i>
+                    <span>E-Worksheet</span>
+                </a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Beranda</a></li>
+                <li><a href="pages/materi.html"><i class="fas fa-book"></i> Materi</a></li>
+                <li><a href="pages/simulasi.html"><i class="fas fa-play-circle"></i> Simulasi</a></li>
+                <li><a href="pages/thinkaloud.html"><i class="fas fa-video"></i> Think-Aloud</a></li>
+                <li><a href="pages/refleksi.html"><i class="fas fa-pen-fancy"></i> Refleksi</a></li>
+                <li><a href="pages/kuis.html"><i class="fas fa-question-circle"></i> Kuis</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="badge">E-Worksheet Interaktif</span>
+                    <h1>Fluida Dinamis</h1>
+                    <p class="subtitle">Eksplorasi konsep Debit, Persamaan Kontinuitas, dan Hukum Bernoulli melalui simulasi interaktif dan metode Think-Aloud.</p>
+                    <div class="hero-buttons">
+                        <a href="pages/materi.html" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i> Mulai Belajar
+                        </a>
+                        <a href="#features" class="btn btn-secondary">
+                            <i class="fas fa-info-circle"></i> Pelajari Lebih Lanjut
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Materi Pokok</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">1</span>
+                            <span class="stat-label">Simulasi PhET</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">20</span>
+                            <span class="stat-label">Soal Kuis</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/hero-fluida.svg" alt="Ilustrasi Fluida Dinamis" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FEATURES SECTION ========== -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Fitur Unggulan</h2>
+                <p>Belajar fluida dinamis dengan pengalaman interaktif yang menyenangkan</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon" style="background: #e3f2fd;">
+                        <i class="fas fa-atom" style="color: #1976d2;"></i>
+                    </div>
+                    <h3>Deep Learning</h3>
+                    <p>Pendekatan Joyful, Mindful, dan Meaningful untuk pemahaman konsep yang mendalam.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" style="background: #e8f5e9;">
+                        <i class="fas fa-microscope" style="color: #388e3c;"></i>
+                    </div>
+                    <h3>Simulasi PhET</h3>
+                    <p>Eksplorasi virtual "Fluid Pressure and Flow" secara interaktif dan real-time.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" style="background: #fff3e0;">
+                        <i class="fas fa-video" style="color: #f57c00;"></i>
+                    </div>
+                    <h3>Think-Aloud</h3>
+                    <p>Rekam layar dan wajah saat menjelaskan konsep dengan bahasa sendiri.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" style="background: #fce4ec;">
+                        <i class="fas fa-pencil-alt" style="color: #c62828;"></i>
+                    </div>
+                    <h3>Jurnal Refleksi</h3>
+                    <p>Evaluasi pemahaman dan kesadaran metakognitif melalui refleksi tertulis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== MATERI PREVIEW ========== -->
+    <section class="materi-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2>Materi yang Dipelajari</h2>
+                <p>Konsep dasar fluida dinamis yang akan kamu eksplorasi</p>
+            </div>
+            <div class="materi-grid">
+                <div class="materi-card">
+                    <div class="materi-number">01</div>
+                    <h3>Debit Aliran</h3>
+                    <p>Memahami volume fluida yang mengalir per satuan waktu (Q = A.v)</p>
+                    <a href="pages/materi.html#debit" class="materi-link">Pelajari <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="materi-card">
+                    <div class="materi-number">02</div>
+                    <h3>Persamaan Kontinuitas</h3>
+                    <p>Hubungan antara luas penampang dan kecepatan aliran (A₁v₁ = A₂v₂)</p>
+                    <a href="pages/materi.html#kontinuitas" class="materi-link">Pelajari <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="materi-card">
+                    <div class="materi-number">03</div>
+                    <h3>Hukum Bernoulli</h3>
+                    <p>Hubungan tekanan, kecepatan, dan ketinggian dalam aliran fluida</p>
+                    <a href="pages/materi.html#bernoulli" class="materi-link">Pelajari <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <i class="fas fa-flask"></i>
+                    <span>E-Worksheet Fluida Dinamis</span>
+                    <p>E-Worksheet berbasis Deep Learning terintegrasi Simulasi PhET dengan Metode Think-Aloud</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="pages/materi.html">Materi</a></li>
+                        <li><a href="pages/simulasi.html">Simulasi</a></li>
+                        <li><a href="pages/thinkaloud.html">Think-Aloud</a></li>
+                        <li><a href="pages/refleksi.html">Refleksi</a></li>
+                        <li><a href="pages/kuis.html">Kuis</a></li>
+                    </ul>
+                </div>
+                <div class="footer-info">
+                    <h4>Informasi</h4>
+                    <p><i class="fas fa-user-graduate"></i> Kelas XI IPA</p>
+                    <p><i class="fas fa-school"></i> SMA Negeri 1 Medan</p>
+                    <p><i class="fas fa-calendar"></i> Semester Ganjil 2025/2026</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 E-Worksheet Fluida Dinamis. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
