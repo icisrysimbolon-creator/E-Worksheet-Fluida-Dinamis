@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Refleksi - E-Worksheet Fluida Dinamis</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="../index.html">
+                    <i class="fas fa-flask"></i>
+                    <span>E-Worksheet</span>
+                </a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../index.html"><i class="fas fa-home"></i> Beranda</a></li>
+                <li><a href="materi.html"><i class="fas fa-book"></i> Materi</a></li>
+                <li><a href="simulasi.html"><i class="fas fa-play-circle"></i> Simulasi</a></li>
+                <li><a href="thinkaloud.html"><i class="fas fa-video"></i> Think-Aloud</a></li>
+                <li><a href="refleksi.html" class="active"><i class="fas fa-pen-fancy"></i> Refleksi</a></li>
+                <li><a href="kuis.html"><i class="fas fa-question-circle"></i> Kuis</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== PAGE HEADER ========== -->
+    <section class="page-header">
+        <div class="container">
+            <h1>📝 Jurnal Refleksi</h1>
+            <p>Refleksikan pemahamanmu tentang Fluida Dinamis setelah menggunakan simulasi PhET</p>
+        </div>
+    </section>
+
+    <!-- ========== PAGE CONTENT ========== -->
+    <section class="page-content">
+        <div class="container">
+            <form class="refleksi-form" id="refleksiForm">
+
+                <!-- Nama Siswa -->
+                <div class="form-group">
+                    <label for="namaSiswa"><i class="fas fa-user"></i> Nama Lengkap</label>
+                    <input type="text" id="namaSiswa" placeholder="Masukkan nama lengkapmu..." required />
+                </div>
+
+                <!-- Link Video Think-Aloud -->
+                <div class="form-group">
+                    <label for="linkVideo"><i class="fas fa-link"></i> Link Video Think-Aloud</label>
+                    <input type="url" id="linkVideo" placeholder="https://youtube.com/..." />
+                    <small style="color:#888; font-size:0.85rem;">Tempelkan link YouTube (unlisted) hasil rekaman Think-Aloudmu</small>
+                </div>
+
+                <!-- Pertanyaan Refleksi 1 -->
+                <div class="form-group">
+                    <label for="refleksi1">1. Apa yang paling menarik dari simulasi PhET yang kamu gunakan?</label>
+                    <textarea id="refleksi1" placeholder="Tuliskan pendapatmu..." rows="3"></textarea>
+                </div>
+
+                <!-- Pertanyaan Refleksi 2 -->
+                <div class="form-group">
+                    <label for="refleksi2">2. Bagaimana hubungan antara luas penampang dan kecepatan aliran menurut pengamatanmu?</label>
+                    <textarea id="refleksi2" placeholder="Tuliskan jawabanmu..." rows="3"></textarea>
+                </div>
+
+                <!-- Pertanyaan Refleksi 3 -->
+                <div class="form-group">
+                    <label for="refleksi3">3. Kesulitan apa yang kamu hadapi saat memahami Hukum Bernoulli?</label>
+                    <textarea id="refleksi3" placeholder="Tuliskan kesulitanmu..." rows="3"></textarea>
+                </div>
+
+                <!-- Pertanyaan Refleksi 4 -->
+                <div class="form-group">
+                    <label for="refleksi4">4. Bagaimana strategi belajarmu untuk memahami materi ini?</label>
+                    <textarea id="refleksi4" placeholder="Tuliskan strategi belajarmu..." rows="3"></textarea>
+                </div>
+
+                <!-- Tombol Submit -->
+                <button type="submit" class="btn btn-success" style="width:100%; justify-content:center;">
+                    <i class="fas fa-paper-plane"></i> Kirim Jurnal Refleksi
+                </button>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <i class="fas fa-flask"></i>
+                    <span>E-Worksheet Fluida Dinamis</span>
+                    <p>E-Worksheet berbasis Deep Learning terintegrasi Simulasi PhET dengan Metode Think-Aloud</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="../index.html">Beranda</a></li>
+                        <li><a href="materi.html">Materi</a></li>
+                        <li><a href="simulasi.html">Simulasi</a></li>
+                        <li><a href="thinkaloud.html">Think-Aloud</a></li>
+                        <li><a href="refleksi.html">Refleksi</a></li>
+                        <li><a href="kuis.html">Kuis</a></li>
+                    </ul>
+                </div>
+                <div class="footer-info">
+                    <h4>Informasi</h4>
+                    <p><i class="fas fa-user-graduate"></i> Kelas XI IPA</p>
+                    <p><i class="fas fa-school"></i> SMA Negeri 1 Medan</p>
+                    <p><i class="fas fa-calendar"></i> Semester Ganjil 2025/2026</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 E-Worksheet Fluida Dinamis. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
