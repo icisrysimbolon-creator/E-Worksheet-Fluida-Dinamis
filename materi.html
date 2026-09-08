@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Materi - E-Worksheet Fluida Dinamis</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="../index.html">
+                    <i class="fas fa-flask"></i>
+                    <span>E-Worksheet</span>
+                </a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../index.html"><i class="fas fa-home"></i> Beranda</a></li>
+                <li><a href="materi.html" class="active"><i class="fas fa-book"></i> Materi</a></li>
+                <li><a href="simulasi.html"><i class="fas fa-play-circle"></i> Simulasi</a></li>
+                <li><a href="thinkaloud.html"><i class="fas fa-video"></i> Think-Aloud</a></li>
+                <li><a href="refleksi.html"><i class="fas fa-pen-fancy"></i> Refleksi</a></li>
+                <li><a href="kuis.html"><i class="fas fa-question-circle"></i> Kuis</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== PAGE HEADER ========== -->
+    <section class="page-header">
+        <div class="container">
+            <h1>📚 Materi Fluida Dinamis</h1>
+            <p>Pahami konsep Debit, Persamaan Kontinuitas, dan Hukum Bernoulli dengan penjelasan lengkap dan contoh aplikasi</p>
+        </div>
+    </section>
+
+    <!-- ========== PAGE CONTENT ========== -->
+    <section class="page-content">
+        <div class="container">
+
+            <!-- DEBIT -->
+            <div class="materi-section" id="debit">
+                <h2>1. Debit Aliran</h2>
+                <p>Debit aliran adalah volume fluida yang mengalir melalui suatu penampang per satuan waktu. Konsep ini sangat penting dalam berbagai aplikasi, seperti sistem perpipaan, irigasi, dan pembangkit listrik tenaga air.</p>
+
+                <h3>Rumus Debit Aliran</h3>
+                <div class="rumus">
+                    Q = V / t = A · v
+                    <span>Keterangan: Q = Debit (m³/s), V = Volume (m³), t = Waktu (s), A = Luas penampang (m²), v = Kecepatan aliran (m/s)</span>
+                </div>
+
+                <h3>Contoh dalam Kehidupan Sehari-hari</h3>
+                <div class="aplikasi">
+                    <strong>💧 Aliran Air dari Keran:</strong> Debit air yang keluar dari keran dapat dihitung dengan mengukur volume air yang tertampung dalam waktu tertentu.
+                </div>
+                <div class="aplikasi">
+                    <strong>🌊 Aliran Sungai:</strong> Debit sungai digunakan untuk memperkirakan potensi banjir dan perencanaan irigasi.
+                </div>
+            </div>
+
+            <!-- KONTINUITAS -->
+            <div class="materi-section" id="kontinuitas">
+                <h2>2. Persamaan Kontinuitas</h2>
+                <p>Persamaan kontinuitas menyatakan bahwa debit aliran fluida adalah konstan sepanjang pipa untuk fluida tak termampatkan (incompressible). Ini berarti ketika luas penampang mengecil, kecepatan aliran meningkat, dan sebaliknya.</p>
+
+                <h3>Rumus Persamaan Kontinuitas</h3>
+                <div class="rumus">
+                    A₁ · v₁ = A₂ · v₂
+                    <span>Keterangan: A₁, A₂ = Luas penampang (m²), v₁, v₂ = Kecepatan aliran (m/s)</span>
+                </div>
+
+                <h3>Contoh dalam Kehidupan Sehari-hari</h3>
+                <div class="aplikasi">
+                    <strong>💧 Selang Air yang Dijepit:</strong> Saat ujung selang dijepit, luas penampang mengecil sehingga kecepatan air meningkat.
+                </div>
+                <div class="aplikasi">
+                    <strong>🌊 Sungai yang Menyempit:</strong> Di bagian sungai yang sempit, kecepatan aliran air menjadi lebih cepat.
+                </div>
+            </div>
+
+            <!-- BERNOULLI -->
+            <div class="materi-section" id="bernoulli">
+                <h2>3. Hukum Bernoulli</h2>
+                <p>Hukum Bernoulli menjelaskan hubungan antara tekanan, kecepatan, dan ketinggian dalam aliran fluida. Hukum ini menyatakan bahwa pada fluida yang bergerak, tekanan berkurang ketika kecepatan meningkat.</p>
+
+                <h3>Rumus Hukum Bernoulli</h3>
+                <div class="rumus">
+                    P + ½ρv² + ρgh = konstan
+                    <span>Keterangan: P = Tekanan (Pa), ρ = Massa jenis (kg/m³), v = Kecepatan (m/s), g = Percepatan gravitasi (m/s²), h = Ketinggian (m)</span>
+                </div>
+
+                <h3>Contoh dalam Kehidupan Sehari-hari</h3>
+                <div class="aplikasi">
+                    <strong>✈️ Sayap Pesawat:</strong> Perbedaan kecepatan udara di atas dan bawah sayap menghasilkan gaya angkat (lift) yang mengangkat pesawat.
+                </div>
+                <div class="aplikasi">
+                    <strong>💨 Venturimeter:</strong> Alat untuk mengukur kecepatan aliran fluida berdasarkan prinsip Bernoulli.
+                </div>
+                <div class="aplikasi">
+                    <strong>🚗 Karburator:</strong> Menggunakan prinsip Bernoulli untuk mencampur udara dan bahan bakar dalam mesin kendaraan.
+                </div>
+                <div class="aplikasi">
+                    <strong>💧 Tangki Bocor:</strong> Kecepatan aliran air keluar dari tangki dapat dihitung menggunakan prinsip Torricelli.
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <i class="fas fa-flask"></i>
+                    <span>E-Worksheet Fluida Dinamis</span>
+                    <p>E-Worksheet berbasis Deep Learning terintegrasi Simulasi PhET dengan Metode Think-Aloud</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="../index.html">Beranda</a></li>
+                        <li><a href="materi.html">Materi</a></li>
+                        <li><a href="simulasi.html">Simulasi</a></li>
+                        <li><a href="thinkaloud.html">Think-Aloud</a></li>
+                        <li><a href="refleksi.html">Refleksi</a></li>
+                        <li><a href="kuis.html">Kuis</a></li>
+                    </ul>
+                </div>
+                <div class="footer-info">
+                    <h4>Informasi</h4>
+                    <p><i class="fas fa-user-graduate"></i> Kelas XI IPA</p>
+                    <p><i class="fas fa-school"></i> SMA Negeri 1 Medan</p>
+                    <p><i class="fas fa-calendar"></i> Semester Ganjil 2025/2026</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 E-Worksheet Fluida Dinamis. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
