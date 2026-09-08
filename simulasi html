@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulasi - E-Worksheet Fluida Dinamis</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="../index.html">
+                    <i class="fas fa-flask"></i>
+                    <span>E-Worksheet</span>
+                </a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../index.html"><i class="fas fa-home"></i> Beranda</a></li>
+                <li><a href="materi.html"><i class="fas fa-book"></i> Materi</a></li>
+                <li><a href="simulasi.html" class="active"><i class="fas fa-play-circle"></i> Simulasi</a></li>
+                <li><a href="thinkaloud.html"><i class="fas fa-video"></i> Think-Aloud</a></li>
+                <li><a href="refleksi.html"><i class="fas fa-pen-fancy"></i> Refleksi</a></li>
+                <li><a href="kuis.html"><i class="fas fa-question-circle"></i> Kuis</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== PAGE HEADER ========== -->
+    <section class="page-header">
+        <div class="container">
+            <h1>🎮 Simulasi PhET</h1>
+            <p>Eksplorasi konsep Fluida Dinamis secara interaktif dengan simulasi "Fluid Pressure and Flow"</p>
+        </div>
+    </section>
+
+    <!-- ========== PAGE CONTENT ========== -->
+    <section class="page-content">
+        <div class="container">
+            <div class="simulasi-container">
+                <!-- PHET IFRAME -->
+                <div class="simulasi-loading" style="text-align:center; padding: 50px 0;">
+                    <i class="fas fa-spinner fa-spin" style="font-size: 3rem; color: var(--primary);"></i>
+                    <p style="margin-top: 15px; color: #666;">Memuat simulasi PhET...</p>
+                </div>
+                <iframe
+                    id="phetSimulasi"
+                    src="https://phet.colorado.edu/sims/html/fluid-pressure-and-flow/latest/fluid-pressure-and-flow_id.html"
+                    allowfullscreen
+                    loading="lazy"
+                    style="width:100%; height:550px; border:none; border-radius:12px; background:#f5f5f5;">
+                </iframe>
+
+                <!-- PANDUAN -->
+                <div class="simulasi-guide">
+                    <h3>📖 Panduan Eksplorasi</h3>
+                    <ol>
+                        <li>Buka simulasi PhET di atas dengan mengklik tombol <strong>Play</strong> (jika diperlukan).</li>
+                        <li>Pada tab <strong>"Aliran" (Flow)</strong>, perhatikan pipa dengan luas penampang yang berbeda.</li>
+                        <li>Ubah kecepatan aliran menggunakan slider yang tersedia.</li>
+                        <li>Perhatikan perubahan kecepatan dan tekanan pada setiap bagian pipa.</li>
+                        <li>Catat pengamatan kalian di jurnal refleksi.</li>
+                    </ol>
+
+                    <div class="task">
+                        <strong>🔬 Tugas Eksplorasi:</strong>
+                        <p style="margin-top: 8px;">
+                            Amati hubungan antara luas penampang, kecepatan aliran, dan tekanan pada pipa.
+                            Catatlah setidaknya 3 pengamatan penting dari eksplorasi kalian!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <i class="fas fa-flask"></i>
+                    <span>E-Worksheet Fluida Dinamis</span>
+                    <p>E-Worksheet berbasis Deep Learning terintegrasi Simulasi PhET dengan Metode Think-Aloud</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="../index.html">Beranda</a></li>
+                        <li><a href="materi.html">Materi</a></li>
+                        <li><a href="simulasi.html">Simulasi</a></li>
+                        <li><a href="thinkaloud.html">Think-Aloud</a></li>
+                        <li><a href="refleksi.html">Refleksi</a></li>
+                        <li><a href="kuis.html">Kuis</a></li>
+                    </ul>
+                </div>
+                <div class="footer-info">
+                    <h4>Informasi</h4>
+                    <p><i class="fas fa-user-graduate"></i> Kelas XI IPA</p>
+                    <p><i class="fas fa-school"></i> SMA Negeri 1 Medan</p>
+                    <p><i class="fas fa-calendar"></i> Semester Ganjil 2025/2026</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 E-Worksheet Fluida Dinamis. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
